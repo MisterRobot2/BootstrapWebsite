@@ -55,3 +55,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#Title
+{
+    background-color: #ff4c68;
+    border: 1px #ff4c68;
+    border-radius: 5%;
+}
+.TitleText
+{
+    font-family: 'Montserrat', sans-serif; font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
