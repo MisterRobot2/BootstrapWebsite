@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,157 +9,142 @@
     <link rel="icon" href="Images/Avatar.png">
     <title>Bootstrap Test!</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@400;900&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@400;900&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
     </style>
     <!--font-family: 'Ubuntu', sans-serif;-->
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap');
-    </style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        </style>
     <!--font-family: 'Montserrat', sans-serif; font-family: 'Ubuntu', sans-serif;-->
 
 
- <!-- Bootstrap CSS -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 
 </head>
-    
-<nav class="navbar nav-tabs navbar-expand-md bg-dark navbar-dark nav-tabs-dark">
-
-   
-
-   
-    <button class="nav-item btn btn-dark btn-lg dropdown-toggle"  style="margin: 0 10px 0 10px;" type="button" data-bs-toggle="collapse" data-bs-target="#ZipCodeButton" aria-expanded="false" aria-controls="ZipCodeButton">
-        <img style="width: 20px; height: 30px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/752px-Map_pin_icon.svg.png" alt="">
-    </button>
-    
-    <h1 class="navbar-text ms-auto" style="margin-right: 7%;"> Skill Hosts</h1>
-
-    <nav class="ms-auto">
-        <!-- This is the first button -->
-        <div class="btn-group">
-            <button type="button" style="margin-right: 10px;" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Explore
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Name</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Search</a></li>
-            </ul>
-          </div>
-          <!-- Join Button -->
-        <button class="btn btn-dark">Join</button>
-    </nav>
-
-    
-
-    <!-- Profile -->
-    <button class="nav-item btn btn-dark btn-lg "  style="margin: 0 10px 0 10px;" type="button" data-bs-toggle="collapse" data-bs-target="#ProfileSettings" aria-expanded="false" aria-controls="ProfileSettings">
-        <div class="card bg-secondary text-white" style="margin: 0 0px 0 0px; padding: 0 20px 0 20px;">
-            <h3 class="navbar-text" style="display: inline;">
-                <span>Eli Entwistle</span>
-                <img class="ProfileIcon" src="https://image.flaticon.com/icons/png/512/1077/1077114.png" alt=""> </img>
-            </h3>
-        </div>
-    </button>
-
-   
-    
-</nav>
-
-
-<!-- This is the dropdown for the zip code -->
-<div class="collapse" style="position: absolute;" id="ZipCodeButton">
-    <div class="card card-body bg-dark text-white" style="width: 400px; height: 100px;">
-        
-        <h6 class="navbar-text" style="padding:0 20px 0 20px">Please Enter a Zip Code</h6>
-                    
-                   
-        <form class="d-flex" >
-            
-            <input class="form-control me-2" type="number" placeholder="Zip Code" aria-label="Zip Code">
-            <button class="btn btn-outline-success" type="submit">Submit</button>
-        </form>
-    </div>
-</div>
-
-<!-- Profile Setting Area -->
-<div class="collapse" style="position: absolute; right: 1px;" id="ProfileSettings">
-    <div class="Dropdown" style="width: auto px; height: autopx; margin-right: 40px;">
-        <ul style="list-style: none;">
-            <li>
-                <a class="ProfileDropdownItem" href=""><img class= "ProfileDropdownIcon"src="https://image.flaticon.com/icons/png/512/3524/3524623.png" alt=""><span>Settings</span> </a>
-            </li>
-            <li>
-                <a class="ProfileDropdownItem" href=""><img class= "ProfileDropdownIcon"src="https://image.flaticon.com/icons/png/512/3524/3524623.png" alt=""><span>Settings</span></a>
-            </li>
-            <li>
-                <a class="ProfileDropdownItem" href=""><img class= "ProfileDropdownIcon"src="https://image.flaticon.com/icons/png/512/3524/3524623.png" alt=""><span>Settings</span></a>
-            </li>
-        </ul>
-    </div>
-</div>
 
 <body>
-     <div id="Title">
+    <nav class="navbar nav-tabs navbar-expand-md bg-dark navbar-dark nav-tabs-dark">
+
+
+
+
+        <button class="nav-item btn btn-dark btn-lg dropdown-toggle" style="margin: 0 10px 0 10px;" type="button"
+            data-bs-toggle="collapse" data-bs-target="#ZipCodeButton" aria-expanded="false"
+            aria-controls="ZipCodeButton">
+            <img style="width: 20px; height: 30px;"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/752px-Map_pin_icon.svg.png"
+                alt="">
+        </button>
+
+        <h1 class="navbar-text ms-auto" style="margin-right: 7%;"> Skill Hosts</h1>
+
+        <nav class="ms-auto">
+            <!-- This is the first button -->
+            <div class="btn-group">
+                <button type="button" style="margin-right: 10px;" class="btn btn-dark dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Explore
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Name</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Search</a></li>
+                </ul>
+            </div>
+            <!-- Join Button -->
+            <button class="btn btn-dark">Join</button>
+        </nav>
+
+
+
+        <!-- Profile -->
+        <button class="nav-item btn btn-dark btn-lg " style="margin: 0 10px 0 10px;" type="button"
+            data-bs-toggle="collapse" data-bs-target="#ProfileSettings" aria-expanded="false"
+            aria-controls="ProfileSettings">
+            <div class="card bg-secondary text-white" style="margin: 0 0px 0 0px; padding: 0 20px 0 20px;">
+                <h3 class="navbar-text" style="display: inline;">
+                    <span>Eli Entwistle</span>
+                    <img class="ProfileIcon" src="https://image.flaticon.com/icons/png/512/1077/1077114.png" alt="">
+                    </img>
+                </h3>
+            </div>
+        </button>
+
+
+
+    </nav>
+
+
+    <!-- This is the dropdown for the zip code -->
+    <div class="collapse" style="position: absolute;" id="ZipCodeButton">
+        <div class="card card-body bg-dark text-white" style="width: 400px; height: 100px;">
+
+            <h6 class="navbar-text" style="padding:0 20px 0 20px">Please Enter a Zip Code</h6>
+
+
+            <form class="d-flex">
+
+                <input class="form-control me-2" type="number" placeholder="Zip Code" aria-label="Zip Code">
+                <button class="btn btn-outline-success" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Profile Setting Area -->
+    <div class="collapse" style="position: absolute; right: 1px;" id="ProfileSettings">
+        <div class="Dropdown" style="width: auto px; height: autopx; margin-right: 40px;">
+            <ul style="list-style: none;">
+                <li>
+                    <a class="ProfileDropdownItem" href=""><img class="ProfileDropdownIcon"
+                            src="https://image.flaticon.com/icons/png/512/3524/3524623.png" alt=""><span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="ProfileDropdownItem" href=""><img class="ProfileDropdownIcon"
+                            src="https://image.flaticon.com/icons/png/512/3524/3524623.png"
+                            alt=""><span>Settings</span></a>
+                </li>
+                <li>
+                    <a class="ProfileDropdownItem" href=""><img class="ProfileDropdownIcon"
+                            src="https://image.flaticon.com/icons/png/512/3524/3524623.png"
+                            alt=""><span>Settings</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="Title">
         <h1 class="TitleText">Learn new skill from local people near you!</h1>
         <div class="row">
             <div class="col-lg-6">
                 <div class="ButtonBox">
-                    <button class="btn btn-dark btn-lg"> <img class="ButtonIcon" src="https://th.bing.com/th/id/R.5bcc939dc545fbc3fa4e2ca87345a6f5?rik=Hb9T%2fW9smXwzXA&pid=ImgRaw&r=0"> Skills Near You</button>
+                    <button class="btn btn-dark btn-lg"> <img class="ButtonIcon"
+                            src="https://th.bing.com/th/id/R.5bcc939dc545fbc3fa4e2ca87345a6f5?rik=Hb9T%2fW9smXwzXA&pid=ImgRaw&r=0">
+                        Skills Near You</button>
                     <div style="display: inline-block; width: 50px; height: 0;"> </div>
-                    <button class="btn btn-outline-light btn-lg"> <img class="ButtonIcon" src="https://image.flaticon.com/icons/png/512/4362/4362414.png"> Host A Skill</button>
+                    <button class="btn btn-outline-light btn-lg"> <img class="ButtonIcon"
+                            src="https://image.flaticon.com/icons/png/512/4362/4362414.png"> Host A Skill</button>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img alt= "Image a a head with different skills around it" src= "Images/Promo/App.png">
-            
+                <img class="PromoPhone" alt="Image a a head with different skills around it" style="width: 500px;" src="Images/Promo/App.png">
+
             </div>
         </div>
-     </div>
-
-    <div class="row">
-        <div class="col" style="background-color: red; border: 1px solid;">Col</div>
-        <div class="col" style="background-color: red; border: 1px solid;">Col</div>
-        <div class="col" style="background-color: red; border: 1px solid;">Col</div>
-        <div class="col" style="background-color: red; border: 1px solid;">Col</div>
-
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;"> <button>This is a test</button></div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-        <div class ="col-lg-2 col-md-3 col-sm-12" style="background-color: lightseagreen; border: 1px solid;">Challenge</div>
-    </div>
-
-    <div class = "col-6" style="background-color: green; border: 1px solid;">Col-6</div>
-    <div class = "col-5" style="background-color: green; border: 1px solid;">Col-5</div>
-    <div class = "col-4" style="background-color: green; border: 1px solid;">Col-4</div>
-    <div class = "col-3" style="background-color: green; border: 1px solid;">Col-3</div>
-    <div class = "col-2" style="background-color: green; border: 1px solid;">Col-2</div>
-    <div class = "col-1" style="background-color: green; border: 1px solid;">Col-1</div>
-
-    <div class="row"> 
-        <div class ="col-lg-3 col-md-4 col-sm-6" style="background-color: lightcoral; border: 1px solid;">
-            TESTE
-        </div>
-        <div class ="col-lg-3 col-md-4 col-sm-6" style="background-color: lightcoral; border: 1px solid;">
-            TESTE
-        </div>
-        <div class ="col-lg-3 col-md-4 col-sm-6" style="background-color: lightcoral; border: 1px solid;">
-            TESTE
-        </div>
-        <div class ="col-lg-3 col-md-4 col-sm-6" style="background-color: lightcoral; border: 1px solid;">
-            TESTE
-        </div>
-
-
-        
     </div>
 </body>
+
 </html>

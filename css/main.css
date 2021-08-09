@@ -1,3 +1,10 @@
+/* Css Function */
+body
+{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/* Navbar */
 .ProfileIcon
 {
     display: inline;
@@ -56,6 +63,8 @@
     margin-bottom: 10px;
 }
 
+/* Title */
+
 #Title
 {
     background-color: #e6bc9b;
@@ -77,7 +86,15 @@
 
 .TitleText
 {
-    font-family: 'Montserrat-Black';
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 5rem;
     line-height: 1.5;
+}
+
+
+
+.PromoPhone
+{
+    
 }
