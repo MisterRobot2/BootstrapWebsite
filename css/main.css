@@ -94,7 +94,15 @@ body
 
 
 
-.PromoPhone
+.PromoPoints
 {
-    
+    text-align: center;
+    margin-bottom: 10%;
+  
+}
+
+.PromoImage
+{
+    width: 130px;
+    height: 130px;
 }
