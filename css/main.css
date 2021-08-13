@@ -3,7 +3,6 @@ body
 {
     font-family: 'Montserrat', sans-serif;;
 }
-
 /* Navbar */
 .ProfileIcon
 {
@@ -87,12 +86,16 @@ body
 .TitleText
 {
     font-family: 'Montserrat';
-    font-weight: 700;
+    font-weight: 900;
     font-size: 5rem;
     line-height: 1.5;
 }
 
 
+.PromoBox
+{
+    padding: 10%;
+}
 
 .PromoPoints
 {
@@ -105,4 +108,32 @@ body
 {
     width: 130px;
     height: 130px;
+}
+
+.PromoText
+{
+    font-weight: 800;
+}
+
+.PromoDisc
+{
+    font-weight: 300;
+}
+
+.Testimonials
+{
+    text-align: center;
+    background-color: #e6bc9b;
+    margin: 10% 30% 10% 10%;
+}
+
+.TestimonialsText
+{
+    font-weight: 800;
+}
+
+.TestimonialsImage
+{
+    width: 100px;
+    height: auto;
 }
