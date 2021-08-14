@@ -3,6 +3,11 @@ body
 {
     font-family: 'Montserrat', sans-serif;;
 }
+h6
+{
+    color: #3a3a3b;
+    font-weight:100;
+}
 /* Navbar */
 .ProfileIcon
 {
@@ -67,10 +72,11 @@ body
 #Title
 {
     background-color: #e6bc9b;
-    border: 3px #ff4c68;
-    border-radius: 3%;
+    /* border: 3px #ff4c68; */
+    border-radius: 10%;
     padding: 30px;
     margin: 3% 10% 3% 10%;
+    text-align: center;
 }
 .ButtonBox
 {
@@ -94,13 +100,13 @@ body
 
 .PromoBox
 {
-    padding: 10%;
+    padding: 5%;
 }
 
 .PromoPoints
 {
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   
 }
 
@@ -124,7 +130,8 @@ body
 {
     text-align: center;
     background-color: #e6bc9b;
-    margin: 10% 30% 10% 10%;
+    margin: 0% 30% 10% 10%;
+    padding: 1% 0 1% 0;
 }
 
 .TestimonialsText
