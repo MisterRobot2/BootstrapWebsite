@@ -3,6 +3,11 @@ body
 {
     font-family: 'Montserrat', sans-serif;;
 }
+h1
+{
+    text-align: center;
+    font-weight: 900;
+}
 h6
 {
     color: #3a3a3b;
@@ -130,17 +135,47 @@ h6
 {
     text-align: center;
     background-color: #e6bc9b;
-    margin: 0% 30% 10% 10%;
-    padding: 1% 0 1% 0;
+    padding: 4%;
+    
+    
 }
 
 .TestimonialsText
 {
     font-weight: 800;
+    font-size: 2rem;
 }
 
 .TestimonialsImage
 {
     width: 100px;
     height: auto;
+}
+
+.carousel-item
+{
+    /* margin: 0% 30% 10% 10%;
+    padding: 1% 0 1% 0; */
+    text-align: center;
+}
+
+/* Cards */
+
+.CardIcon
+{
+   width: 50px;
+   height: auto;
+   text-align: left;
+   margin-left: 0;
+   margin-right: 0%;
+   display: inline-block;
+   padding-bottom: 10px;
+}
+
+.BoxText
+{
+    font-weight: 800;
+    font-size: 2em;
+    padding-left: auto;
+    margin-left: 5%;
 }
